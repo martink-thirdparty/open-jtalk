@@ -15,12 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\mecab2njd\mecab2njd.c">
+    <ClCompile Include="vanilla\njd\njd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\njd\njd_node.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\mecab2njd\mecab2njd.h">
+    <ClInclude Include="vanilla\njd\njd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\njd\njd_rule_euc_jp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\njd\njd_rule_shift_jis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\njd\njd_rule_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

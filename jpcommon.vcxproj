@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0E209CB6-5C64-4640-B567-63D8AD4F81A9}</ProjectGuid>
-    <RootNamespace>njd_set_long_vowel</RootNamespace>
+    <ProjectGuid>{F3FAA179-BC8A-4F70-8AEE-20265CDB2825}</ProjectGuid>
+    <RootNamespace>jpcommon</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -33,11 +33,11 @@
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
@@ -47,32 +47,34 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\source\njd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CHARSET_UTF_8;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader />
+      <SDLCheck>false</SDLCheck>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\source\njd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CHARSET_UTF_8;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
+      <SDLCheck>false</SDLCheck>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\njd_set_long_vowel\njd_set_long_vowel.c" />
+    <ClCompile Include="vanilla\jpcommon\jpcommon.c" />
+    <ClCompile Include="vanilla\jpcommon\jpcommon_label.c" />
+    <ClCompile Include="vanilla\jpcommon\jpcommon_node.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel.h" />
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel_rule_ascii_for_euc_jp.h" />
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel_rule_ascii_for_shift_jis.h" />
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel_rule_ascii_for_utf_8.h" />
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel_rule_euc_jp.h" />
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel_rule_shift_jis.h" />
-    <ClInclude Include="source\njd_set_long_vowel\njd_set_long_vowel_rule_utf_8.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon_rule_ascii_for_euc_jp.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon_rule_ascii_for_shift_jis.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon_rule_ascii_for_utf_8.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon_rule_euc_jp.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon_rule_shift_jis.h" />
+    <ClInclude Include="vanilla\jpcommon\jpcommon_rule_utf_8.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

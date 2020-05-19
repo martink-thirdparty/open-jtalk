@@ -33,11 +33,11 @@
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
@@ -63,61 +63,61 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\mecab\src\char_property.cpp" />
-    <ClCompile Include="source\mecab\src\connector.cpp" />
-    <ClCompile Include="source\mecab\src\context_id.cpp" />
-    <ClCompile Include="source\mecab\src\dictionary.cpp" />
-    <ClCompile Include="source\mecab\src\dictionary_compiler.cpp" />
-    <ClCompile Include="source\mecab\src\dictionary_generator.cpp" />
-    <ClCompile Include="source\mecab\src\dictionary_rewriter.cpp" />
-    <ClCompile Include="source\mecab\src\eval.cpp" />
-    <ClCompile Include="source\mecab\src\feature_index.cpp" />
-    <ClCompile Include="source\mecab\src\iconv_utils.cpp" />
-    <ClCompile Include="source\mecab\src\lbfgs.cpp" />
-    <ClCompile Include="source\mecab\src\learner.cpp" />
-    <ClCompile Include="source\mecab\src\learner_tagger.cpp" />
-    <ClCompile Include="source\mecab\src\libmecab.cpp" />
-    <ClCompile Include="source\mecab\src\mecab-dict-index.cpp" />
-    <ClCompile Include="source\mecab\src\mecab.cpp" />
-    <ClCompile Include="source\mecab\src\nbest_generator.cpp" />
-    <ClCompile Include="source\mecab\src\param.cpp" />
-    <ClCompile Include="source\mecab\src\string_buffer.cpp" />
-    <ClCompile Include="source\mecab\src\tagger.cpp" />
-    <ClCompile Include="source\mecab\src\tokenizer.cpp" />
-    <ClCompile Include="source\mecab\src\utils.cpp" />
-    <ClCompile Include="source\mecab\src\viterbi.cpp" />
-    <ClCompile Include="source\mecab\src\writer.cpp" />
+    <ClCompile Include="vanilla\mecab\src\char_property.cpp" />
+    <ClCompile Include="vanilla\mecab\src\connector.cpp" />
+    <ClCompile Include="vanilla\mecab\src\context_id.cpp" />
+    <ClCompile Include="vanilla\mecab\src\dictionary.cpp" />
+    <ClCompile Include="vanilla\mecab\src\dictionary_compiler.cpp" />
+    <ClCompile Include="vanilla\mecab\src\dictionary_generator.cpp" />
+    <ClCompile Include="vanilla\mecab\src\dictionary_rewriter.cpp" />
+    <ClCompile Include="vanilla\mecab\src\eval.cpp" />
+    <ClCompile Include="vanilla\mecab\src\feature_index.cpp" />
+    <ClCompile Include="vanilla\mecab\src\iconv_utils.cpp" />
+    <ClCompile Include="vanilla\mecab\src\lbfgs.cpp" />
+    <ClCompile Include="vanilla\mecab\src\learner.cpp" />
+    <ClCompile Include="vanilla\mecab\src\learner_tagger.cpp" />
+    <ClCompile Include="vanilla\mecab\src\libmecab.cpp" />
+    <ClCompile Include="vanilla\mecab\src\mecab-dict-index.cpp" />
+    <ClCompile Include="vanilla\mecab\src\mecab.cpp" />
+    <ClCompile Include="vanilla\mecab\src\nbest_generator.cpp" />
+    <ClCompile Include="vanilla\mecab\src\param.cpp" />
+    <ClCompile Include="vanilla\mecab\src\string_buffer.cpp" />
+    <ClCompile Include="vanilla\mecab\src\tagger.cpp" />
+    <ClCompile Include="vanilla\mecab\src\tokenizer.cpp" />
+    <ClCompile Include="vanilla\mecab\src\utils.cpp" />
+    <ClCompile Include="vanilla\mecab\src\viterbi.cpp" />
+    <ClCompile Include="vanilla\mecab\src\writer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\mecab\src\char_property.h" />
-    <ClInclude Include="source\mecab\src\common.h" />
-    <ClInclude Include="source\mecab\src\connector.h" />
-    <ClInclude Include="source\mecab\src\context_id.h" />
-    <ClInclude Include="source\mecab\src\darts.h" />
-    <ClInclude Include="source\mecab\src\dictionary.h" />
-    <ClInclude Include="source\mecab\src\dictionary_rewriter.h" />
-    <ClInclude Include="source\mecab\src\feature_index.h" />
-    <ClInclude Include="source\mecab\src\freelist.h" />
-    <ClInclude Include="source\mecab\src\iconv_utils.h" />
-    <ClInclude Include="source\mecab\src\lbfgs.h" />
-    <ClInclude Include="source\mecab\src\learner_node.h" />
-    <ClInclude Include="source\mecab\src\learner_tagger.h" />
-    <ClInclude Include="source\mecab\src\mecab.h" />
-    <ClInclude Include="source\mecab\src\mempool.h" />
-    <ClInclude Include="source\mecab\src\mmap.h" />
-    <ClInclude Include="source\mecab\src\mutex.h" />
-    <ClInclude Include="source\mecab\src\nbest_generator.h" />
-    <ClInclude Include="source\mecab\src\param.h" />
-    <ClInclude Include="source\mecab\src\scoped_ptr.h" />
-    <ClInclude Include="source\mecab\src\stream_wrapper.h" />
-    <ClInclude Include="source\mecab\src\string_buffer.h" />
-    <ClInclude Include="source\mecab\src\thread.h" />
-    <ClInclude Include="source\mecab\src\tokenizer.h" />
-    <ClInclude Include="source\mecab\src\ucs.h" />
-    <ClInclude Include="source\mecab\src\ucstable.h" />
-    <ClInclude Include="source\mecab\src\utils.h" />
-    <ClInclude Include="source\mecab\src\viterbi.h" />
-    <ClInclude Include="source\mecab\src\writer.h" />
+    <ClInclude Include="vanilla\mecab\src\char_property.h" />
+    <ClInclude Include="vanilla\mecab\src\common.h" />
+    <ClInclude Include="vanilla\mecab\src\connector.h" />
+    <ClInclude Include="vanilla\mecab\src\context_id.h" />
+    <ClInclude Include="vanilla\mecab\src\darts.h" />
+    <ClInclude Include="vanilla\mecab\src\dictionary.h" />
+    <ClInclude Include="vanilla\mecab\src\dictionary_rewriter.h" />
+    <ClInclude Include="vanilla\mecab\src\feature_index.h" />
+    <ClInclude Include="vanilla\mecab\src\freelist.h" />
+    <ClInclude Include="vanilla\mecab\src\iconv_utils.h" />
+    <ClInclude Include="vanilla\mecab\src\lbfgs.h" />
+    <ClInclude Include="vanilla\mecab\src\learner_node.h" />
+    <ClInclude Include="vanilla\mecab\src\learner_tagger.h" />
+    <ClInclude Include="vanilla\mecab\src\mecab.h" />
+    <ClInclude Include="vanilla\mecab\src\mempool.h" />
+    <ClInclude Include="vanilla\mecab\src\mmap.h" />
+    <ClInclude Include="vanilla\mecab\src\mutex.h" />
+    <ClInclude Include="vanilla\mecab\src\nbest_generator.h" />
+    <ClInclude Include="vanilla\mecab\src\param.h" />
+    <ClInclude Include="vanilla\mecab\src\scoped_ptr.h" />
+    <ClInclude Include="vanilla\mecab\src\stream_wrapper.h" />
+    <ClInclude Include="vanilla\mecab\src\string_buffer.h" />
+    <ClInclude Include="vanilla\mecab\src\thread.h" />
+    <ClInclude Include="vanilla\mecab\src\tokenizer.h" />
+    <ClInclude Include="vanilla\mecab\src\ucs.h" />
+    <ClInclude Include="vanilla\mecab\src\ucstable.h" />
+    <ClInclude Include="vanilla\mecab\src\utils.h" />
+    <ClInclude Include="vanilla\mecab\src\viterbi.h" />
+    <ClInclude Include="vanilla\mecab\src\writer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

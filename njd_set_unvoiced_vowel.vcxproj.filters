@@ -15,36 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\jpcommon\jpcommon.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\jpcommon\jpcommon_label.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\jpcommon\jpcommon_node.c">
+    <ClCompile Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\jpcommon\jpcommon.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\jpcommon\jpcommon_rule_euc_jp.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel_rule_euc_jp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\jpcommon\jpcommon_rule_shift_jis.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel_rule_shift_jis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\jpcommon\jpcommon_rule_utf_8.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel_rule_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\jpcommon\jpcommon_rule_ascii_for_euc_jp.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel_rule_ascii_for_euc_jp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\jpcommon\jpcommon_rule_ascii_for_shift_jis.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel_rule_ascii_for_shift_jis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\jpcommon\jpcommon_rule_ascii_for_utf_8.h">
+    <ClInclude Include="vanilla\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel_rule_ascii_for_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

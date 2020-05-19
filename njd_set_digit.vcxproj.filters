@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\njd_set_digit\njd_set_digit.c">
+    <ClCompile Include="vanilla\njd_set_digit\njd_set_digit.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_euc_jp.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit_rule_euc_jp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_shift_jis.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit_rule_shift_jis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_utf_8.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit_rule_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_ascii_for_euc_jp.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit_rule_ascii_for_euc_jp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_ascii_for_shift_jis.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit_rule_ascii_for_shift_jis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_ascii_for_utf_8.h">
+    <ClInclude Include="vanilla\njd_set_digit\njd_set_digit_rule_ascii_for_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

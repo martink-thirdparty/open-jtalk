@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0114F7A6-18BE-47E8-8571-86557474AEF7}</ProjectGuid>
-    <RootNamespace>njd_set_digit</RootNamespace>
+    <ProjectGuid>{576CF895-CBB4-49A7-A2E2-62F2B4D2C8F2}</ProjectGuid>
+    <RootNamespace>njd2jpcommon</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -33,11 +33,11 @@
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
@@ -47,7 +47,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\source\njd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\vanilla\njd;.\vanilla\jpcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CHARSET_UTF_8;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -56,23 +56,23 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\source\njd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\vanilla\njd;.\vanilla\jpcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CHARSET_UTF_8;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\njd_set_digit\njd_set_digit.c" />
+    <ClCompile Include="vanilla\njd2jpcommon\njd2jpcommon.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\njd_set_digit\njd_set_digit.h" />
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_ascii_for_euc_jp.h" />
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_ascii_for_shift_jis.h" />
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_ascii_for_utf_8.h" />
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_euc_jp.h" />
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_shift_jis.h" />
-    <ClInclude Include="source\njd_set_digit\njd_set_digit_rule_utf_8.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_ascii_for_euc_jp.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_ascii_for_shift_jis.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_ascii_for_utf_8.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_euc_jp.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_shift_jis.h" />
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_utf_8.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

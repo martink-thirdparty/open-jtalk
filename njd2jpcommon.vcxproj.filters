@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\text2mecab\text2mecab.c">
+    <ClCompile Include="vanilla\njd2jpcommon\njd2jpcommon.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\text2mecab\text2mecab.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\text2mecab\text2mecab_rule_euc_jp.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_euc_jp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\text2mecab\text2mecab_rule_shift_jis.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_shift_jis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\text2mecab\text2mecab_rule_utf_8.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\text2mecab\text2mecab_rule_ascii_for_euc_jp.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_ascii_for_euc_jp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\text2mecab\text2mecab_rule_ascii_for_shift_jis.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_ascii_for_shift_jis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\text2mecab\text2mecab_rule_ascii_for_utf_8.h">
+    <ClInclude Include="vanilla\njd2jpcommon\njd2jpcommon_rule_ascii_for_utf_8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
