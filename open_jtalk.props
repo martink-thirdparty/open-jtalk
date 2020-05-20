@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IncludePath>$(MSBuildThisFileDirectory)vanilla;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>libnjd_set_accent_type.lib;libmecab.lib;libnjd_set_digit.lib;libtext2mecab.lib;libnjd_set_unvoiced_vowel.lib;libjpcommon.lib;libnjd_set_pronunciation.lib;libnjd.lib;libnjd_set_long_vowel.lib;libmecab2njd.lib;libnjd2jpcommon.lib;libnjd_set_accent_phrase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+ </ItemDefinitionGroup>
+</Project>
