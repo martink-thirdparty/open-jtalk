@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpcommon", "jpcommon.vcxproj", "{F3FAA179-BC8A-4F70-8AEE-20265CDB2825}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mecab", "mecab.vcxproj", "{0AF3D1A2-4028-4AC2-941E-983B685B5282}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mecab2njd", "mecab2njd.vcxproj", "{33A2814A-1764-4CB6-B0C2-A29E715830E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd", "njd.vcxproj", "{636F2D95-9F1C-4B03-A22E-905CC39F49D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd_set_accent_phrase", "njd_set_accent_phrase.vcxproj", "{C928F8F4-9BEB-420C-B3CA-14D0778D1F7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd_set_accent_type", "njd_set_accent_type.vcxproj", "{3393CFF0-2550-404D-94B1-9EB82E9CF2D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd_set_digit", "njd_set_digit.vcxproj", "{0114F7A6-18BE-47E8-8571-86557474AEF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd_set_long_vowel", "njd_set_long_vowel.vcxproj", "{0E209CB6-5C64-4640-B567-63D8AD4F81A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd_set_pronunciation", "njd_set_pronunciation.vcxproj", "{EDEA0BAB-8DA2-492E-BFEB-3948230E1F46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd_set_unvoiced_vowel", "njd_set_unvoiced_vowel.vcxproj", "{D727DBFF-EE5F-4307-A37F-33D8DAE68E2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "njd2jpcommon", "njd2jpcommon.vcxproj", "{576CF895-CBB4-49A7-A2E2-62F2B4D2C8F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "text2mecab", "text2mecab.vcxproj", "{29FB2828-2A74-4843-B31A-F7E3318D39BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Lib|x86 = Debug Lib|x86
+		Release Lib|x86 = Release Lib|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3FAA179-BC8A-4F70-8AEE-20265CDB2825}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{F3FAA179-BC8A-4F70-8AEE-20265CDB2825}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{F3FAA179-BC8A-4F70-8AEE-20265CDB2825}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{F3FAA179-BC8A-4F70-8AEE-20265CDB2825}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{0AF3D1A2-4028-4AC2-941E-983B685B5282}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{0AF3D1A2-4028-4AC2-941E-983B685B5282}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{0AF3D1A2-4028-4AC2-941E-983B685B5282}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{0AF3D1A2-4028-4AC2-941E-983B685B5282}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{33A2814A-1764-4CB6-B0C2-A29E715830E9}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{33A2814A-1764-4CB6-B0C2-A29E715830E9}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{33A2814A-1764-4CB6-B0C2-A29E715830E9}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{33A2814A-1764-4CB6-B0C2-A29E715830E9}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{636F2D95-9F1C-4B03-A22E-905CC39F49D7}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{636F2D95-9F1C-4B03-A22E-905CC39F49D7}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{636F2D95-9F1C-4B03-A22E-905CC39F49D7}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{636F2D95-9F1C-4B03-A22E-905CC39F49D7}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{C928F8F4-9BEB-420C-B3CA-14D0778D1F7B}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{C928F8F4-9BEB-420C-B3CA-14D0778D1F7B}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{C928F8F4-9BEB-420C-B3CA-14D0778D1F7B}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{C928F8F4-9BEB-420C-B3CA-14D0778D1F7B}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{3393CFF0-2550-404D-94B1-9EB82E9CF2D9}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{3393CFF0-2550-404D-94B1-9EB82E9CF2D9}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{3393CFF0-2550-404D-94B1-9EB82E9CF2D9}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{3393CFF0-2550-404D-94B1-9EB82E9CF2D9}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{0114F7A6-18BE-47E8-8571-86557474AEF7}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{0114F7A6-18BE-47E8-8571-86557474AEF7}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{0114F7A6-18BE-47E8-8571-86557474AEF7}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{0114F7A6-18BE-47E8-8571-86557474AEF7}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{0E209CB6-5C64-4640-B567-63D8AD4F81A9}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{0E209CB6-5C64-4640-B567-63D8AD4F81A9}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{0E209CB6-5C64-4640-B567-63D8AD4F81A9}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{0E209CB6-5C64-4640-B567-63D8AD4F81A9}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{EDEA0BAB-8DA2-492E-BFEB-3948230E1F46}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{EDEA0BAB-8DA2-492E-BFEB-3948230E1F46}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{EDEA0BAB-8DA2-492E-BFEB-3948230E1F46}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{EDEA0BAB-8DA2-492E-BFEB-3948230E1F46}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{D727DBFF-EE5F-4307-A37F-33D8DAE68E2C}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{D727DBFF-EE5F-4307-A37F-33D8DAE68E2C}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{D727DBFF-EE5F-4307-A37F-33D8DAE68E2C}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{D727DBFF-EE5F-4307-A37F-33D8DAE68E2C}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{576CF895-CBB4-49A7-A2E2-62F2B4D2C8F2}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{576CF895-CBB4-49A7-A2E2-62F2B4D2C8F2}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{576CF895-CBB4-49A7-A2E2-62F2B4D2C8F2}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{576CF895-CBB4-49A7-A2E2-62F2B4D2C8F2}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{29FB2828-2A74-4843-B31A-F7E3318D39BB}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{29FB2828-2A74-4843-B31A-F7E3318D39BB}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{29FB2828-2A74-4843-B31A-F7E3318D39BB}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{29FB2828-2A74-4843-B31A-F7E3318D39BB}.Release Lib|x86.Build.0 = Release Lib|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CBAC397-2B71-4B59-BB4C-3B1E0BCF830B}
+	EndGlobalSection
+EndGlobal
